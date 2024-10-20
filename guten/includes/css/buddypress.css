@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+# BuddyPress extra styling
+--------------------------------------------------------------*/
+/* ---- Members Page ---- */
+.buddypress-wrap .subnav-filters {
+    display: flex;
+    margin: 0 0 20px;
+}
+
+.buddypress-wrap .subnav-filters div.subnav-search {
+    flex: 1;
+}
+.buddypress-wrap .subnav-filters div.subnav-search .members-search form {
+    display: flex;
+    float: none;
+    max-width: 20em;
+    width: 100%;
+}
+.buddypress-wrap form.bp-dir-search-form input[type=search] {
+    flex: 1;
+}
+.buddypress-wrap form.bp-dir-search-form button[type=submit] {
+    width: 50px;
+    padding: 6px 8px 12px;
+}
+
+ul.members-list.bp-list {
+    
+}
+ul.members-list.bp-list li {
+    
+}
+ul.members-list.bp-list li .list-wrap {
+    display: flex;
+}
+ul.members-list.bp-list li .item-avatar {
+    border: 4px solid #FFF;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    margin: 0 20px 0 0;
+    max-width: 160px;
+    max-height: 158px;
+}
+ul.members-list.bp-list li .item-avatar a,
+ul.members-list.bp-list li .item-avatar img {
+    display: block;
+    margin: 0;
+}
+ul.members-list.bp-list li .item {
+    flex: 1;
+}
+ul.members-list.bp-list li .item .item-block {
+    float: none;
+    width: 100%;
+}
+ul.members-list.bp-list li .item .item-block * {
+    float: none;
+}
+ul.members-list.bp-list li .item .user-update {
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+}
+ul.members-list.bp-list li .item .user-update p {
+    margin: 0 0 10px;
+}
+
+
+/* ---- Profile Page ---- */
+
